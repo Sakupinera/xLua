@@ -1,0 +1,916 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.44f1 (c3ae09b9f03c) revision 12824073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32499 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Editor\2022.3.44f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Documents/UnityProjects/xLua
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+3767
+Successfully changed project path to: E:/Documents/UnityProjects/xLua
+E:/Documents/UnityProjects/xLua
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26812]  Target information:
+
+Player connection [26812]  * "[IP] 192.168.71.94 [Port] 0 [Flags] 2 [Guid] 909545400 [EditorId] 909545400 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4RHEKLQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26812] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26812] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
+[Subsystems] Discovering subsystems at path D:/Unity/Editor/2022.3.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Documents/UnityProjects/xLua/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2820)
+    Vendor:   NVIDIA
+    VRAM:     7948 MB
+    Driver:   32.0.15.5607
+Initialize mono
+Mono path[0] = 'D:/Unity/Editor/2022.3.44f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001643 seconds.
+- Loaded All Assemblies, in  0.221 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.175 seconds
+Domain Reload Profiling: 395ms
+	BeginReloadAssembly (63ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (96ms)
+		LoadAssemblies (63ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (84ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (175ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (144ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.141 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.242 seconds
+Domain Reload Profiling: 383ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (5ms)
+		LoadAssemblies (53ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3ms)
+			TypeCache.Refresh (2ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (242ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (155ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (48.8 KB). Loaded Objects now: 532.
+Memory consumption went from 51.0 MB to 50.9 MB.
+Total: 1.529100 ms (FindLiveObjects: 0.028900 ms CreateObjectMapping: 0.003800 ms MarkObjects: 1.449500 ms  DeleteObjects: 0.046200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 266815.391760 seconds.
+  path: Assets/XLua/Examples/01_Helloworld/Helloworld.cs
+  artifactKey: Guid(480b23bd4e378f2499f8b31ae84b1c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XLua/Examples/01_Helloworld/Helloworld.cs using Guid(480b23bd4e378f2499f8b31ae84b1c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'fea9708d90f09e3cb2a04507079a5c9c') in 0.001992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 84.414980 seconds.
+  path: Assets/XLua/Examples/01_Helloworld/Helloworld.unity
+  artifactKey: Guid(58e2eda480b0c6e41a793391a9fb9a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XLua/Examples/01_Helloworld/Helloworld.unity using Guid(58e2eda480b0c6e41a793391a9fb9a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '022ffbcaaec980f5cd87ec7060a5d871') in 0.000380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.654243 seconds.
+  path: Assets/XLua/CHANGELOG.txt
+  artifactKey: Guid(be3fe4ee249c5274693e7b6f8053e861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/CHANGELOG.txt using Guid(be3fe4ee249c5274693e7b6f8053e861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '72d5bd8054596b546cffe9b0cc16e7cd') in 0.046241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011547 seconds.
+  path: Assets/Plugins/iOS/libxlua.a
+  artifactKey: Guid(2d65468f3356ca741b3fbebea91dfb6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/iOS/libxlua.a using Guid(2d65468f3356ca741b3fbebea91dfb6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'eaf1cee8b2cac05f51e5a20b005cf360') in 0.019514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.037145 seconds.
+  path: Assets/Plugins/WebGL/xlua_webgl.cpp
+  artifactKey: Guid(92f9773841d5ffd44b794b9b584a5c05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/WebGL/xlua_webgl.cpp using Guid(92f9773841d5ffd44b794b9b584a5c05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f0687ef8b6ffe8c7fffc23ab2db4aa0c') in 0.002511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.054433 seconds.
+  path: Assets/Plugins/x86/xlua.dll
+  artifactKey: Guid(79f5c811b2e4e444ab2d97cad5cfd934) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/x86/xlua.dll using Guid(79f5c811b2e4e444ab2d97cad5cfd934) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '585fa2e7c48b701e7c94087082f9b886') in 0.002377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.054790 seconds.
+  path: Assets/XLua/Doc/custom_generate.md
+  artifactKey: Guid(6436d38981b6f5a4d8a2255ea3145ed1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Doc/custom_generate.md using Guid(6436d38981b6f5a4d8a2255ea3145ed1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0b63c7924282ee9b3495b47959c8b787') in 0.002206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/XLua/Examples/12_ReImplementInLua/ReImplementInLua.unity
+  artifactKey: Guid(c4695949a6b369345a5ecdcc82c946c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/12_ReImplementInLua/ReImplementInLua.unity using Guid(c4695949a6b369345a5ecdcc82c946c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0c6267bb586e961eacdf1ec0777fa9c1') in 0.001680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/XLua/Src/ObjectPool.cs
+  artifactKey: Guid(acf2cec75841d9646900284e2ba1ca4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/ObjectPool.cs using Guid(acf2cec75841d9646900284e2ba1ca4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '456cd5ee80d9f9b8c3d47d4c8ea52d62') in 0.007777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Plugins/WSA/x64/xlua.dll
+  artifactKey: Guid(a73864467778862409da51f9feb60004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/WSA/x64/xlua.dll using Guid(a73864467778862409da51f9feb60004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '27ed72d2ba8a1681dc975ef1b960296d') in 0.001499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/XLua/Src/ObjectTranslator.cs
+  artifactKey: Guid(41d53bdd4bbda0f41a6bd1eb35af4f99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/ObjectTranslator.cs using Guid(41d53bdd4bbda0f41a6bd1eb35af4f99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ea220aa775ea09bff0f06763e5bc7e7f') in 0.001274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Plugins/WSA/ARM64/xlua.dll
+  artifactKey: Guid(532b555055968964fadef8fb67272e6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/WSA/ARM64/xlua.dll using Guid(532b555055968964fadef8fb67272e6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7cc15af33a0acdbf7e9b364d71b096e5') in 0.001542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/XLua/Examples/03_UIEvent/UI.unity
+  artifactKey: Guid(f835eeddd75e9f74d95c957aa7ca44b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/03_UIEvent/UI.unity using Guid(f835eeddd75e9f74d95c957aa7ca44b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c8f6e8159420b2e7e2e1bb5dd8276265') in 0.001003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/XLua/Doc/signature.md
+  artifactKey: Guid(54ea702ea6cb89a46b7986dc7fa8482e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Doc/signature.md using Guid(54ea702ea6cb89a46b7986dc7fa8482e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2e87f01517add3b4619e316db47eca61') in 0.000948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/XLua/Examples/08_Hotfix/HotfixTest.cs
+  artifactKey: Guid(496cbe3b76e0a8649b6b6e429a322a9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/08_Hotfix/HotfixTest.cs using Guid(496cbe3b76e0a8649b6b6e429a322a9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '83e95bc46d76ba09a27c88defdec8dbd') in 0.001938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/XLua/Doc/xLua.png
+  artifactKey: Guid(b2926ca0864130e40b99cbe18d0fc395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Doc/xLua.png using Guid(b2926ca0864130e40b99cbe18d0fc395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8b27410fcf521579953befec2ece2eaf') in 0.029024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/XLua/Doc/XLua性能分析工具.doc
+  artifactKey: Guid(5e83c211c4c43834b9c8027b7480ab5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Doc/XLua性能分析工具.doc using Guid(5e83c211c4c43834b9c8027b7480ab5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'eee4f0c7e857925fbc39c8524385acd2') in 0.001815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/XLua/Doc/Faq_EN.md
+  artifactKey: Guid(7b6232183a3c52f4f9af4b68f8a687cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Doc/Faq_EN.md using Guid(7b6232183a3c52f4f9af4b68f8a687cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '22722acf08a0195162c9f5479621cf09') in 0.001159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/XLua/Examples/12_ReImplementInLua/ReImplementInLua.cs
+  artifactKey: Guid(cffb50bfe4f87494c8a4851450dfb340) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/12_ReImplementInLua/ReImplementInLua.cs using Guid(cffb50bfe4f87494c8a4851450dfb340) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ab42d075cc18671576211f7ede4db524') in 0.001831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/XLua/Doc/XLua复杂值类型（struct）gc优化指南.doc
+  artifactKey: Guid(11d97e567c78f3147b86070c103f3d2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Doc/XLua复杂值类型（struct）gc优化指南.doc using Guid(11d97e567c78f3147b86070c103f3d2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'bc96c7887bc9d5331f9aef7ffb5015d4') in 0.001133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/XLua/Examples/ExampleGenConfig.cs
+  artifactKey: Guid(62b967797782a6d46a759bf0693f7351) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/ExampleGenConfig.cs using Guid(62b967797782a6d46a759bf0693f7351) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8100f8ce05eaac487fc30435e6fa7e7b') in 0.001724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/iOS/HotfixFlags.cpp
+  artifactKey: Guid(ef0ed550afe43d449b58d883fad0585c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/iOS/HotfixFlags.cpp using Guid(ef0ed550afe43d449b58d883fad0585c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '249019e6e1d123f1c7fe027ba14a9ad2') in 0.001416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/XLua/Doc/XLua_Tutorial_EN.md
+  artifactKey: Guid(76e3df78477813b47bb62712878a2f62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Doc/XLua_Tutorial_EN.md using Guid(76e3df78477813b47bb62712878a2f62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5d4e0ae7021cdd088022ed798404a213') in 0.000997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/XLua/Editor/ExampleConfig.cs
+  artifactKey: Guid(1b852d3c62124624888d03e611f7b1fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Editor/ExampleConfig.cs using Guid(1b852d3c62124624888d03e611f7b1fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '29b2446c4f933c4685105ff1d78fc660') in 0.001587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/XLua/Src/LuaTable.cs
+  artifactKey: Guid(3a4d72d338110544b8538c1a5fd33c11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/LuaTable.cs using Guid(3a4d72d338110544b8538c1a5fd33c11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5880815b517e15b7cc4acb18a1f76a22') in 0.001107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/XLua/Doc/XLua增加删除第三方lua库.doc
+  artifactKey: Guid(40e0633beaaf4dd49aca86e58539a814) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Doc/XLua增加删除第三方lua库.doc using Guid(40e0633beaaf4dd49aca86e58539a814) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a79057ba7b8c4d5115c82ec9b77d6fba') in 0.001811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/XLua/Src/GenAttributes.cs
+  artifactKey: Guid(4455254bac5b6644893ae8183b9eb87c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/GenAttributes.cs using Guid(4455254bac5b6644893ae8183b9eb87c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b378c89faa331e5366fd60f37d93b40f') in 0.001350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/XLua/Editor/XLuaUnityDefaultConfig.cs
+  artifactKey: Guid(0689fbe5e036a474eb2b6a64de55cd46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Editor/XLuaUnityDefaultConfig.cs using Guid(0689fbe5e036a474eb2b6a64de55cd46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '315ced97f69be7a6790b329141a55a9a') in 0.001322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/XLua/Doc/XLua_API.doc
+  artifactKey: Guid(f05e875da3e1b3844b2360d177d617c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Doc/XLua_API.doc using Guid(f05e875da3e1b3844b2360d177d617c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '21ff37886f8979f5d335d43e19eb2393') in 0.001954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/XLua/Doc/logo.png
+  artifactKey: Guid(6b9f4e2e38c36db40bc5bdfe20038d94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Doc/logo.png using Guid(6b9f4e2e38c36db40bc5bdfe20038d94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9edc4eb658e111bb4d8a186c3af33f7d') in 0.006118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/XLua/Examples/09_GenericMethod/Foo.cs
+  artifactKey: Guid(3894dbe73b280d44e9c58b8e33c93995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/09_GenericMethod/Foo.cs using Guid(3894dbe73b280d44e9c58b8e33c93995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6afcbf21c8e49036818a8eb0f33516c3') in 0.001692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/XLua/Doc/Hotfix_EN.md
+  artifactKey: Guid(7919d0bddff7ee340852008d36cd68ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Doc/Hotfix_EN.md using Guid(7919d0bddff7ee340852008d36cd68ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c86dd2afe1a11831e3c0e82785b96ff0') in 0.000982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/XLua/Doc/XLua_API.md
+  artifactKey: Guid(d97e183eaa307684b9b99ded9005b181) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Doc/XLua_API.md using Guid(d97e183eaa307684b9b99ded9005b181) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '53653e886155884ac323ffd84ec23e78') in 0.001221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/XLua/Examples/06_Coroutine/Coroutine_Runner.cs
+  artifactKey: Guid(9abe5e754f1c63247a254d53e34d1e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/06_Coroutine/Coroutine_Runner.cs using Guid(9abe5e754f1c63247a254d53e34d1e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5bf8eae9fe4073d16f99c969494dbc4f') in 0.001907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/XLua/Examples/02_U3DScripting/LuaTestScript.lua.txt
+  artifactKey: Guid(7cfed86298c2da543b693ffd8436367a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/02_U3DScripting/LuaTestScript.lua.txt using Guid(7cfed86298c2da543b693ffd8436367a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7e97fa3e19833c7e75c94b1cfd44dd3c') in 0.001265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/XLua/Src/TypeExtensions.cs
+  artifactKey: Guid(0099a231859d6da43932d0c36714e17f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/TypeExtensions.cs using Guid(0099a231859d6da43932d0c36714e17f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2639f8901720800767761f0fcfd4d84c') in 0.001549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/XLua/Examples/05_NoGc/NoGc.cs
+  artifactKey: Guid(577a670e2d7ad5e4691e30c9249edf3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/05_NoGc/NoGc.cs using Guid(577a670e2d7ad5e4691e30c9249edf3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'eaab09ab7c70f9fa87de183a612f9684') in 0.001205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/XLua/Examples/01_Helloworld/Helloworld.cs
+  artifactKey: Guid(480b23bd4e378f2499f8b31ae84b1c05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/01_Helloworld/Helloworld.cs using Guid(480b23bd4e378f2499f8b31ae84b1c05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '10a0988c23b7462ffed90e675066fc18') in 0.001394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/XLua/Examples/10_SignatureLoader/signatured2.lua
+  artifactKey: Guid(dceaef6c0e4f511489f2a9d6d198afa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/10_SignatureLoader/signatured2.lua using Guid(dceaef6c0e4f511489f2a9d6d198afa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f8d457a98c9fb3786a322339b624d0d4') in 0.001677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/XLua/Examples/07_AsyncTest/MessageBox.cs
+  artifactKey: Guid(20d92fd634185584eb982e0ad93a13a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/07_AsyncTest/MessageBox.cs using Guid(20d92fd634185584eb982e0ad93a13a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '53832e7088cb81ec1c7ddedf9693a03c') in 0.001390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/XLua/Doc/Add_Remove_Lua_Lib.md
+  artifactKey: Guid(0ae08314c9c889249bbd484254109060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Doc/Add_Remove_Lua_Lib.md using Guid(0ae08314c9c889249bbd484254109060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5ad0f0a98c1d1f00bd656576b5f7b811') in 0.001015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/XLua/Examples/10_SignatureLoader/SignatureLoaderTest.unity
+  artifactKey: Guid(7bf24e9d2076ecd4ba65687e9d238c34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/10_SignatureLoader/SignatureLoaderTest.unity using Guid(7bf24e9d2076ecd4ba65687e9d238c34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e7b0706f2659371699563c526044cb21') in 0.001796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/XLua/Src/LuaFunction.cs
+  artifactKey: Guid(7c45cd490d853cb409d042c641784718) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/LuaFunction.cs using Guid(7c45cd490d853cb409d042c641784718) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '34bf3757b352e72f5d931575cc0c41c2') in 0.001892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/XLua/Examples/10_SignatureLoader/SignatureLoaderTest.cs
+  artifactKey: Guid(552b1f9f9174fe446907357379f128b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/10_SignatureLoader/SignatureLoaderTest.cs using Guid(552b1f9f9174fe446907357379f128b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd0ddb08dcc5dc938fff1a79c84336b7c') in 0.001445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/XLua/Src/LuaBase.cs
+  artifactKey: Guid(36f6e0ab03586ce4493d45dbc2a0ff5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/LuaBase.cs using Guid(36f6e0ab03586ce4493d45dbc2a0ff5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '14e9fbfe1a50a49fd3d1b06bc828c116') in 0.001980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/XLua/Src/MethodWarpsCache.cs
+  artifactKey: Guid(d5f029e1a01fd984f92bf8d5c2b51923) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/MethodWarpsCache.cs using Guid(d5f029e1a01fd984f92bf8d5c2b51923) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd053e561efd2c0edca7bd01f4b224aac') in 0.002072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/x86/libxlua.so
+  artifactKey: Guid(9f19d785ae44ddc478a08a87ccd9dbb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/x86/libxlua.so using Guid(9f19d785ae44ddc478a08a87ccd9dbb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '681c711d89d6bebbcf41855820ee2320') in 0.002235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.396721 seconds.
+  path: Assets/XLua/Examples/13_BuildFromCLI/build.bat
+  artifactKey: Guid(165d35780a78009469ee772b2ab15e81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/13_BuildFromCLI/build.bat using Guid(165d35780a78009469ee772b2ab15e81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '675d0739b06b6ca3509591a8246b9c11') in 0.001401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/XLua/Src/Editor/Hotfix.cs
+  artifactKey: Guid(f9f175d9e85601f4da903e391b8b7c77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/Editor/Hotfix.cs using Guid(f9f175d9e85601f4da903e391b8b7c77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd0bbc723bf925a77d80e87604afae683') in 0.001658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/XLua/Examples/14_HotfixAsyncAwait/Resources/await.lua.txt
+  artifactKey: Guid(effc794ec3dec7645bee0864b61842b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/14_HotfixAsyncAwait/Resources/await.lua.txt using Guid(effc794ec3dec7645bee0864b61842b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '615e82c0de3b39f8a8a54ee5c855b7e7') in 0.001072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/XLua/Tutorial/LoadLuaScript/ByFile/ByFile.unity
+  artifactKey: Guid(645674efb2695c04eb519c16ceed1480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Tutorial/LoadLuaScript/ByFile/ByFile.unity using Guid(645674efb2695c04eb519c16ceed1480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '176183497cd677c851c164e087146ba0') in 0.001586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/XLua/Examples/10_SignatureLoader/otherfiles/signatured2.lua
+  artifactKey: Guid(384893ab7180e0c448d6521421f1859f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/10_SignatureLoader/otherfiles/signatured2.lua using Guid(384893ab7180e0c448d6521421f1859f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '157f977569407636b5fb9cf6891cb239') in 0.001313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/XLua/Src/Editor/Template/PackUnpack.tpl.txt
+  artifactKey: Guid(c9ef7e8f2a3b37744aad49b99370c16b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/Editor/Template/PackUnpack.tpl.txt using Guid(c9ef7e8f2a3b37744aad49b99370c16b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2f24fc3f51eaabfbd64d2ff8c4a521e0') in 0.001563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/XLua/Examples/14_HotfixAsyncAwait/Resources/AsyncMethod4.lua.txt
+  artifactKey: Guid(fb1cf630ec008e34fa7c390922442d07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/14_HotfixAsyncAwait/Resources/AsyncMethod4.lua.txt using Guid(fb1cf630ec008e34fa7c390922442d07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8052d74071b8ba72c6c7b953943d7bf2') in 0.001415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/XLua/Src/Editor/Template/LuaEnumWrap.tpl.txt
+  artifactKey: Guid(ae16c73aad9a21a44aef65decb7e4928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/Editor/Template/LuaEnumWrap.tpl.txt using Guid(ae16c73aad9a21a44aef65decb7e4928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '79fbd88ce1098ae73831cb9c1220efb8') in 0.002260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/XLua/Src/Editor/Template/LuaRegisterGCM.tpl.txt
+  artifactKey: Guid(46c7366d55afbf1459674448d92c44c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/Editor/Template/LuaRegisterGCM.tpl.txt using Guid(46c7366d55afbf1459674448d92c44c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '985d3d1d814e9a17b28b0c5baed7575c') in 0.001474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/XLua/Tutorial/LoadLuaScript/ByFile/Resources/byfile.lua.txt
+  artifactKey: Guid(4065bb64deb0d0447b29928194cc75d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Tutorial/LoadLuaScript/ByFile/Resources/byfile.lua.txt using Guid(4065bb64deb0d0447b29928194cc75d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f5186dc40a19441bff0faec5c0d943cd') in 0.001699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/XLua/Examples/10_SignatureLoader/otherfiles/key_ras.pub
+  artifactKey: Guid(ccd4f9e35fcee3b439e31a15449a1765) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/10_SignatureLoader/otherfiles/key_ras.pub using Guid(ccd4f9e35fcee3b439e31a15449a1765) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ae4f92d39966f608d3709c7052195ed3') in 0.001112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/XLua/Src/Editor/Report.cs
+  artifactKey: Guid(1a3eea7e2e9e8e94ca50f9b792bc9416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/Editor/Report.cs using Guid(1a3eea7e2e9e8e94ca50f9b792bc9416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7bb779a9236eabb7268e699c491517fa') in 0.001355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/XLua/Src/Editor/Template/TemplateCommon.lua.txt
+  artifactKey: Guid(cb41d53afe75a9443b182e284298feeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/Editor/Template/TemplateCommon.lua.txt using Guid(cb41d53afe75a9443b182e284298feeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c5699c810966eeda49603e79ffb2edc3') in 0.001776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/XLua/Examples/14_HotfixAsyncAwait/Resources/MyTask2.lua.txt
+  artifactKey: Guid(61677c80fedcddc49b602a7ae3d1b3b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/14_HotfixAsyncAwait/Resources/MyTask2.lua.txt using Guid(61677c80fedcddc49b602a7ae3d1b3b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a2cb787687ce3c69518340555c46f0d5') in 0.001306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/XLua/Tutorial/LoadLuaScript/ByString/ByString.cs
+  artifactKey: Guid(cdd0c0173dd65494ba0f34e6e5a80606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Tutorial/LoadLuaScript/ByString/ByString.cs using Guid(cdd0c0173dd65494ba0f34e6e5a80606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1f66c7afe19037aa955b16f570dd4272') in 0.001441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/XLua/Src/Editor/Generator.cs
+  artifactKey: Guid(e866a5f1000c29940843aece98d0c706) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/Editor/Generator.cs using Guid(e866a5f1000c29940843aece98d0c706) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6d412f692c23913935c62091676c9971') in 0.001835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/XLua/Examples/07_AsyncTest/Resources/async_test.lua.txt
+  artifactKey: Guid(40d0922483b73c8408f163088c9adc26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/07_AsyncTest/Resources/async_test.lua.txt using Guid(40d0922483b73c8408f163088c9adc26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7f95e50e53aa600d54a86dc0cc5919b9') in 0.001536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/XLua/Examples/10_SignatureLoader/otherfiles/signatured3.lua
+  artifactKey: Guid(8771a42e51c869743bd8cbf0511b8afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/10_SignatureLoader/otherfiles/signatured3.lua using Guid(8771a42e51c869743bd8cbf0511b8afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '48a7914ba60eac634ba0f457b1c58969') in 0.001435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/XLua/Tutorial/LoadLuaScript/ByString/ByString.unity
+  artifactKey: Guid(d6763539a6ad6444f9367b462faec32a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Tutorial/LoadLuaScript/ByString/ByString.unity using Guid(d6763539a6ad6444f9367b462faec32a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'cd7c56d8d3e7ee708c13a353fb799f12') in 0.001857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/XLua/Examples/10_SignatureLoader/otherfiles/key_ras
+  artifactKey: Guid(059b7b0b901925a49a1aab1169c15dee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/10_SignatureLoader/otherfiles/key_ras using Guid(059b7b0b901925a49a1aab1169c15dee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '30d61ee5427f737f17686588c148eca0') in 0.001689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/XLua/Examples/06_Coroutine/Resources/coruntine_test.lua.txt
+  artifactKey: Guid(13b04a36211388b45849c1fb7dd7b956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/06_Coroutine/Resources/coruntine_test.lua.txt using Guid(13b04a36211388b45849c1fb7dd7b956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b6c43b82bc42ef3224b79f91e3d700ae') in 0.001414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/XLua/Src/Editor/Template/LuaDelegateBridge.tpl.txt
+  artifactKey: Guid(3d992756e2469044484be75f78e4e556) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/Editor/Template/LuaDelegateBridge.tpl.txt using Guid(3d992756e2469044484be75f78e4e556) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f298ccae47bd39cbbf90f9989f6c695f') in 0.001945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/XLua/Src/TemplateEngine/TemplateEngine.cs
+  artifactKey: Guid(d416b4da0b828854c8e997f0c1ae4072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/TemplateEngine/TemplateEngine.cs using Guid(d416b4da0b828854c8e997f0c1ae4072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'dce2b907c33d4dc1cbab7aba4a6ddd3a') in 0.001792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/XLua/Examples/14_HotfixAsyncAwait/Resources/AsyncMethod2.lua.txt
+  artifactKey: Guid(9c4e4d89f12c0f04eac6514685f20c97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/14_HotfixAsyncAwait/Resources/AsyncMethod2.lua.txt using Guid(9c4e4d89f12c0f04eac6514685f20c97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '92d793b5cb6e627d735cbda07d517381') in 0.001329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Android/libs/x86/libxlua.so
+  artifactKey: Guid(038a89637b659e346a7a712ce0c9271b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Android/libs/x86/libxlua.so using Guid(038a89637b659e346a7a712ce0c9271b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b29908af08ed3690ef16c3a5dc5233ca') in 0.002305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/XLua/Resources/tdr/tdr.lua.txt
+  artifactKey: Guid(9e05f05f4a331bc45a04832062650a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Resources/tdr/tdr.lua.txt using Guid(9e05f05f4a331bc45a04832062650a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b79b25d6cc597b75180cd5180158be74') in 0.001207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/XLua/Tutorial/LuaCallCSharp/LuaCallCs.unity
+  artifactKey: Guid(d5a67740111b6144d874577073176b35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Tutorial/LuaCallCSharp/LuaCallCs.unity using Guid(d5a67740111b6144d874577073176b35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7d313616f41024caeb36d3a00d930940') in 0.001608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/XLua/Tutorial/LuaCallCSharp/LuaCallCs.cs
+  artifactKey: Guid(567af7ecaa3d5994c97448357665421b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Tutorial/LuaCallCSharp/LuaCallCs.cs using Guid(567af7ecaa3d5994c97448357665421b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '36bb87807f1a082423d3e50d7537c48c') in 0.002337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/XLua/Tutorial/LoadLuaScript/ByFile/ByFile.cs
+  artifactKey: Guid(1d426a45aa481124aaba409c3a9b3f7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Tutorial/LoadLuaScript/ByFile/ByFile.cs using Guid(1d426a45aa481124aaba409c3a9b3f7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9184003bbd9498fa1826b5ff24053064') in 0.001492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/XLua/Examples/06_Coroutine/Resources/cs_coroutine.lua.txt
+  artifactKey: Guid(4f3d9471c4ae0aa47957ff35c0df972e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/06_Coroutine/Resources/cs_coroutine.lua.txt using Guid(4f3d9471c4ae0aa47957ff35c0df972e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4c6bd46d5f0d6c35279ced8419010106') in 0.001491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/XLua/Examples/13_BuildFromCLI/Editor/BuildFromCLI.cs
+  artifactKey: Guid(1fd3fcc7509943c45af11f63df13d137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/13_BuildFromCLI/Editor/BuildFromCLI.cs using Guid(1fd3fcc7509943c45af11f63df13d137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3593daaf55a562c79e007e28fd309f06') in 0.002169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/XLua/Examples/08_Hotfix/Editor/HotfixTestCfg.cs
+  artifactKey: Guid(f5a751e2beef908429c5908d9e24696a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/08_Hotfix/Editor/HotfixTestCfg.cs using Guid(f5a751e2beef908429c5908d9e24696a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a118b8e4d5ffadf896c02a09496475b9') in 0.001581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/XLua/Src/Editor/Template/LuaInterfaceBridge.tpl.txt
+  artifactKey: Guid(7165d08e91378494dadeb10e5338accb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Src/Editor/Template/LuaInterfaceBridge.tpl.txt using Guid(7165d08e91378494dadeb10e5338accb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '832d04af839b1124cc719792d4e24534') in 0.001939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/XLua/Examples/07_AsyncTest/Resources/ConfirmBox.prefab
+  artifactKey: Guid(18c683fc899b71146b50b40d8d5fe57a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XLua/Examples/07_AsyncTest/Resources/ConfirmBox.prefab using Guid(18c683fc899b71146b50b40d8d5fe57a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '75aef52f820f174c9f86fe96fabd8794') in 0.009888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
